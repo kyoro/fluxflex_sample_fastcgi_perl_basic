@@ -15,13 +15,13 @@ sub setup {
 
 sub index {
     my $self = shift;
-    my $html = $self->load_tmpl('index.tmpl');
+    my $html = $self->load_tmpl('index/index.tmpl');
     return $html->output;
 }
 
 sub result {
     my $self = shift;
-    my $html = $self->load_tmpl('result.tmpl');
+    my $html = $self->load_tmpl('index/result.tmpl');
     return $html->output;
 }
 
