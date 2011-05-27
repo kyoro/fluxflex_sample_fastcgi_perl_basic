@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 use FindBin::libs;
-use MyApp::Hello;
+use MyApp::Index;
 
 my $hello = MyApp::Index->new();
 $hello->run();
