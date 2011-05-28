@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 20px;
+}
+#container {
+    margin: 0px auto;
+    background-color: #FFF;
+    width: 600px;
+    text-align:center;
+}
+#container h1 {
+    color: #333;
+    font-size: 1.5em;
+}
+#container p {
+    color: #666;
+}
+.brown {
+    background-color: #B7A589;
+}
+.green {
+    background-color: #3C9;
+}
+.glay {
+    background-color: #CCC;
+}
+
