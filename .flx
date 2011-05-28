@@ -1,0 +1,16 @@
+################################
+# fluxflex initializer
+# (c) fluxflex,inc 2011
+################################
+
+[setup]
+date > public_html/setup.txt
+
+[deploy]
+date > public_html/deploy.txt
+
+[permittion]
+public_html/setup.txt       777
+public_html/deploy.txt      777
+
+
